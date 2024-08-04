@@ -1,0 +1,50 @@
+{
+  "name": "lexical",
+  "version": "1.0.0",
+  "description": "An amazing Budibase component!",
+  "license": "MIT",
+  "svelte": "index.js",
+  "module": "dist/plugin.min.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -cw"
+  },
+  "dependencies": {
+    "@crownframework/svelte-error-boundary": "^1.0.3",
+    "@lexical/clipboard": "^0.17.0",
+    "@lexical/code": "^0.17.0",
+    "@lexical/file": "^0.17.0",
+    "@lexical/hashtag": "^0.17.0",
+    "@lexical/history": "^0.17.0",
+    "@lexical/html": "^0.17.0",
+    "@lexical/link": "^0.17.0",
+    "@lexical/list": "^0.17.0",
+    "@lexical/mark": "^0.17.0",
+    "@lexical/markdown": "^0.17.0",
+    "@lexical/overflow": "^0.17.0",
+    "@lexical/plain-text": "^0.17.0",
+    "@lexical/rich-text": "^0.17.0",
+    "@lexical/selection": "^0.17.0",
+    "@lexical/table": "^0.17.0",
+    "@lexical/text": "^0.17.0",
+    "@lexical/utils": "^0.17.0",
+    "@lexical/yjs": "^0.17.0",
+    "svelte": "^3.49.0"
+  },
+  "devDependencies": {
+    "@budibase/backend-core": "^2.0.13",
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "npm-run-all": "^4.1.5",
+    "postcss": "^8.2.10",
+    "rollup": "^2.44.0",
+    "rollup-plugin-copy2": "^0.3.1",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-polyfill-node": "^0.8.0",
+    "rollup-plugin-postcss": "^4.0.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "rollup-plugin-svg": "^2.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "tar": "^6.1.11"
+  }
+}
